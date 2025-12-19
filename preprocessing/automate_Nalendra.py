@@ -27,7 +27,6 @@ def load_and_preprocess_data():
     df['Age'].fillna(df['Age'].median(), inplace=True)
     df['Embarked'].fillna(df['Embarked'].mode()[0], inplace=True)
     # ... dst ...
-    # ------------------------------------------------
     
     # 3. Simpan Hasil
     df.to_csv(output_path, index=False)
