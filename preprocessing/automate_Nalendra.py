@@ -8,7 +8,7 @@ def load_and_preprocess_data():
     base_dir = os.path.dirname(os.path.abspath(__file__))
     
     # Path Input (Naik satu level ke folder 'namadataset_raw')
-    raw_data_path = os.path.join(base_dir, '..', 'titanic_raw', 'Titanic_raw.csv')
+    raw_data_path = os.path.join(base_dir, '..', 'titanic_raw', 'Titanic-Dataset.csv')
     
     # Path Output (Simpan di 'namadataset_preprocessing')
     output_dir = os.path.join(base_dir, 'titanic_preprocessing')
