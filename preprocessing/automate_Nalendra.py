@@ -14,7 +14,6 @@ def load_and_preprocess_data():
     output_dir = os.path.join(base_dir, 'titanic_preprocessing')
     output_path = os.path.join(output_dir, 'titanic_clean.csv')
 
-    # Buat folder output jika belum ada
     os.makedirs(output_dir, exist_ok=True)
 
     # 2. Proses Data (Sesuai Notebook Eksperimen_MSML.ipynb Anda)
